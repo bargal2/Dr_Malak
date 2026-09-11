@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const cardsData = [
-    { id: 1, frontIcon: "❤️", text: "بحبك", backContent: "أنتي أجمل حاجة حصلتلي", color: "from-pink-500 to-rose-600" },
-    { id: 2, frontIcon: "✨", text: "بموت فيكي", backContent: "ضحكتك هي السبب اللي بيخليني أبتسم كل يوم", color: "from-purple-500 to-indigo-600" },
-    { id: 3, frontIcon: "🔒", text: "بعشقك", backContent: "قلبي ملكك لوحدك، للأبد", color: "from-red-500 to-pink-600" },
+    { id: 1, frontIcon: "❤️", text: "بحبك", backContent: "انتي اجمل حاجه حصلتلي يملاكيي وحبيبه قلبي،،كل مره هختارك واحبك من جديد  كل دعوه بتبقي يديمك نعمه فحياتي♥️♥️", color: "from-pink-500 to-rose-600" },
+    { id: 2, frontIcon: "✨", text: "بموت فيكي", backContent: "ضحكتك هي سبب كل حاجه حلوه فحياتي وبتمني ربنا يسعد ملوكتي ع اشوف الضحكه دي♥️♥️", color: "from-purple-500 to-indigo-600" },
+    { id: 3, frontIcon: "🔒", text: "بعشقك", backContent: "قلبي ملكك لوحدك لابد ..وعمري كله ليكي وهتكوني افضل واحلي دكتوره ملوك في الدنيا ومنتجاتك مغرقه سعوديه♥️", color: "from-red-500 to-pink-600" },
 ];
 
 const LoveCards = () => {

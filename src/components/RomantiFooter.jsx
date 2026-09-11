@@ -5,9 +5,9 @@ const InteractiveMemory = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const memories = [
-        { id: 1, img: "1.jpg", text: "بحبك يا نور عيني ❤️", size: "tall" },
-        { id: 4, img: "4.jpg", text: "عمري ما كنت مبسوط زي ما انا معاكي ❤️", size: "tall" },
-        { id: 6, img: "2.jpg", text: "يا مالكه قلبي ❤️", size: "small" },
+        { id: 1, img: "5.jpg", text: "اليوم دا كنت ممتن كده لفرحتك برساله بسيطه مني وعرفتني قد اي انا مهم فحياتك وبيفرق معاكي كلامي ♥️♥", size: "tall" },
+        { id: 4, img: "6.jpg", text: "اليوم دا قد اي طمنتيني وقد اي كنت داخل الامتحان م خايف فعلا وعلي قد مالكليه كانت صعبه علي قد ماكانت بتهون بتمني اصالحك كل يوم عن اي حد يدايقك ياجمل دكتورتي ❤️", size: "tall" },
+        { id: 6, img: "7.jpg", text: "اليوم دا اكتر يوم كنت خايف في حياتي كلها كميه قلق وخوف يمكن مبينتهمش بس حصلو م متخيل كان نفسي جداا ابقي جنبك وامسك ايدك طول العمليه وادخل معاكي اوضه العمليات واقولك متخافيش ولحد مايخلصه تفتحي تلاقيني معاكي .بس حمد لله ربنا كرم وقومتيلي بسلامه ع في قصه لازم تكمل♥️", size: "small" },
     ];
 
     useEffect(() => {
@@ -17,7 +17,7 @@ const InteractiveMemory = () => {
 
     return (
         <section className="relative min-h-[600px] w-full flex items-center justify-center bg-[#05010d] overflow-hidden font-sans">
-            
+
             {/* تأثيرات الإضاءة الخلفية */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-pink-600/10 rounded-full blur-[120px] animate-pulse" />
@@ -47,7 +47,7 @@ const InteractiveMemory = () => {
                             className="relative group cursor-pointer"
                         >
                             <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur-xl opacity-30 group-hover:opacity-100 transition duration-500"></div>
-                            
+
                             <div className="relative px-14 py-7 bg-black/80 backdrop-blur-2xl border border-white/10 rounded-full flex items-center gap-5 shadow-2xl">
                                 <span className="text-white text-xl md:text-5xl font-black font-arabic tracking-tight">
                                     أجمل حكاية في <span className="text-pink-500 italic drop-shadow-[0_0_15px_rgba(236,72,153,0.5)]">عُمري</span>
