@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const LoveGate = ({ onUnlock }) => {
     const [password, setPassword] = useState('');
-    const correctPassword = "malakey"; // كلمة المرور الجديدة
+    const correctPassword = "malake"; // كلمة المرور الجديدة
 
     const handleInput = (e) => {
         const val = e.target.value.toLowerCase().trim(); // تحويل للأصغر لتجنب أخطاء الكبيتال
